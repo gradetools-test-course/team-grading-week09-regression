@@ -1,0 +1,25 @@
+name,prompt_code,prompt_message,feedback,total_points,points_to_remove
+Question 1.a,1a,Incorrect; intercept chosen,$\beta_1$ is the slope; $\beta_0$ is the intercept,1,1
+Question 1.a,1b,Incorrect; residual chosen,$\beta_1$ is the slope; $\epsilon_i$ is the residual,NA,1
+Question 1.b,1a,Interpretation slightly off,$\beta_1$ is the expected change in the response for a one unit increase in the explanatory variable.,2,1
+Question 1.b,1b,Completely incorrect,$\beta_1$ is the expected change in the response for a one unit increase in the explanatory variable.,NA,2
+Question 1.b,1c,Didn't mention difference in x,This is the expected change in the response for a difference in the explanatory value of one unit.,2,1
+Question 2,1a,X and Y switched,The explanatory variable is the high school gpa and the response is the first-year college gpa,2,0.75
+Question 2,1b,No axis labels,There are no axis labels on the plot so it is unclear what is plotted,NA,0.25
+Question 2,1d,Incorrect plot type,The response and explanatory variables are both quantitative variables so a scatterplot is the appropriate plot to show their relationship.,NA,1
+Question 3,1a,X and Y switched,The explanatory variable is the high school gpa and the response is the first-year college gpa. So the model formula would be specified as: fy_gpa ~ hs_gpa,2,1
+Question 3,1b,Model not save correctly,"The quiz asks that the model be saved as ""model_h""",NA,0.5
+Question 3.a,1a,Missed linearity,Simple linear regression assumes a linear relationship between the explanatory and response variables.,3,0.5
+Question 3.a,1b,Missed constant variance,Simple linear regression assumes that the variance of the residuals is constant for all values of the explanatory variable.,NA,0.5
+Question 3.a,1c,Missed normality,Simple linear regression assumes the residuals are normally distributed.,NA,0.5
+Question 3.a,2,Conclusions not fully supported,Your conclusions were not fully supported. For each conclusion there should be a refernce to evidence.,NA,0.75
+Question 3.a,3,Did not support conclusions at all,Evidence was not provided to support your conclusions.,NA,1.5
+Question 3.b,1,Incorrect value identified as slope,The slope of the regression is 0.74314. This can be obtained from the coefficients table from the regression summary.,3,1
+Question 3.b,2,Causal interpretation,"Be careful, we cannot make a causal conclusion here. A correct interpretation of the slope would be: For people with high school GPA differing by one point, we estimate those with the higher GPA to have a first-year college GPA 0.74 points higher, on average.",NA,1
+Question 3.b,1a,No slope identified,The slope was not identified.,3,-1
+Question 3.b,2a,Interpretation not in context,The interpretation was not in context of this problem.,3,-1
+all_questions,0,Correct,Correct,NA,0
+all_questions,404,Answer missing,No answer was provided for this question,NA,100
+general_feedback,0,Great job on the quiz!,Great job on the quiz! You have a great understanding of the material.,NA,NA
+general_feedback,1,Some work needed,It appear this material was a little challenging. I suggest reviewing the homework for this chapter and attending office hours so I can help clarify concepts.,NA,NA
+general_feedback,2,Don't just print output,Please make sure to not just print r output.,NA,NA
